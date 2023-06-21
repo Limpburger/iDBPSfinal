@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Laag_1"
+   data-name="Laag 1"
+   viewBox="0 0 292792.87 417656.43"
+   version="1.1"
+   width="292792.88"
+   height="417656.41"
+   xmlns="http://www.w3.org/2000/svg">
+  <defs
+     id="defs254">
+    <style
+       id="style252">
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #e19e82;
+      }
+
+      .cls-3 {
+        fill: #028151;
+      }
+
+      .cls-4 {
+        fill: #e69674;
+      }
+
+      .cls-5 {
+        fill: #ddd5d2;
+      }
+
+      .cls-6 {
+        fill: #cf1915;
+      }
+
+      .cls-7 {
+        fill: #3d3533;
+      }
+
+      .cls-8 {
+        fill: #e5a451;
+      }
+
+      .cls-9 {
+        fill: #333d63;
+      }
+
+      .cls-10 {
+        fill: #039960;
+      }
+
+      .cls-11 {
+        fill: #e8b29b;
+      }
+
+      .cls-12 {
+        fill: #b57e67;
+      }
+
+      .cls-13 {
+        fill: #edb9a3;
+      }
+
+      .cls-14 {
+        fill: #ecac5a;
+      }
+
+      .cls-15 {
+        fill: #df1a16;
+      }
+
+      .cls-16 {
+        fill: #263056;
+      }
+
+      .cls-17 {
+        fill: #322a28;
+      }
+
+      .cls-18 {
+        fill: #ccb050;
+      }
+
+      .cls-19 {
+        fill: #e8a68a;
+      }
+    </style>
+  </defs>
+  <g
+     id="karakter-man_3"
+     data-name="karakter-man 3"
+     transform="translate(-43056.697,-51205.888)">
+    <g
+       id="Group_8274"
+       data-name="Group 8274">
+      <path
+         id="Path_3620"
+         data-name="Path 3620"
+         class="cls-13"
+         d="M 310.03,451.53 C 102.3,450.18 70.46,380.69 70.46,262.79 70.46,144.89 120.08,50.02 310.03,49.32 499.98,48.61 549.6,144.9 549.6,262.8 c 0,117.9 -31.83,190.09 -239.57,188.74 z"
+         style="fill:#ff0000;fill-opacity:1" />
+    </g>
+  </g>
+</svg>
