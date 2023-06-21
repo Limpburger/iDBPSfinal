@@ -1,0 +1,376 @@
+.App {
+  width:100%;
+  height:auto;
+}
+
+.game-board {
+  border: 2px solid #000; /* Adjust the border color and thickness as desired */
+  width: 80%;
+  height:auto;
+  margin:auto;
+  padding:5%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@keyframes mymove {
+
+  from {fill: red;}
+  to {fill: yellow;}
+}
+
+@keyframes wobble {
+  0%, 100% {transform: translateX(0);} 
+  10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);} 
+  20%, 40%, 60%, 80% {transform: translateX(10px);}
+} 
+
+@keyframes movePupil {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-5px, -5px); }
+  50% { transform: translate(0, 0); }
+  75% { transform: translate(5px, -5px); }
+  100% { transform: translate(0, 0); }
+}
+
+
+
+.animation{
+  animation: example 5s infinite;
+}
+
+@keyframes wavingArm {
+  0% {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+  20% {
+    transform: rotate(20deg) translate(184px, -80px);
+  }
+  40% {
+    transform: rotate(45deg) translate(384px, -300px);
+  }
+  60% {
+    transform: rotate(65deg) translate(420px, -490px);
+  }
+  80% {
+    transform: rotate(80deg) translate(420px, -650px);
+  }
+
+  100% {
+    transform: rotate(100deg) translate(370px, -850px);
+  }
+}
+
+.rightArm{
+  animation: wavingArm 2s linear infinite alternate;
+  transform-origin: top left;
+}
+
+
+.eyes{
+  animation: example 5s infinite;
+}
+/* .pupils {
+  animation: movePupil 1s infinite;
+} */
+
+.chest:hover{
+  animation: wobble 4s infinite;
+}
+.pants:hover{
+  animation: wobble 4s infinite;
+}
+
+.shoes:hover{
+  animation: wobble 4s infinite;
+}
+
+.cls-14:hover ~ .cls-8{
+  animation: wobble 4s infinite;
+}
+.cls-14:hover{
+  animation: wobble 4s infinite;
+}
+
+.head:hover {
+  /*animation: rotate 2s linear infinite; /* Apply the animation to the head */
+  animation: wobble 4s infinite;
+  stroke:black;
+  stroke-width: 0.1%;
+}
+
+
+
+
+
+.HeadOptions {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: red;
+  width: 20%;
+  height:auto;
+  margin-top:5%;
+}
+
+.HeadOptionBox{
+text-align: center;
+height:100%;
+width:100%;
+margin:auto;
+margin-top:20px;
+}
+
+.HeadOptionBox svg{
+height:80%;
+width:80%;
+  
+  }
+
+
+
+
+
+  .chestOptions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: red;
+    width: 20%;
+    height:auto;
+    margin-top:5%;
+  }
+  
+  .chestOptionBox{
+    text-align: center;
+    height:100%;
+    width:100%;
+    margin:auto;
+    margin-top:20px;
+  }
+  
+  .chestOptionBox svg{
+    height:80%;
+    width:80%;
+    }
+
+    .legsOptions {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: red;
+      width: 20%;
+      height:auto;
+      margin-top:5%;
+    }
+    
+    .legsOptionBox{
+      text-align: center;
+      height:100%;
+      width:100%;
+      margin:auto;
+      margin-top:20px;
+    }
+    
+    .legsOptionBox svg{
+      height:60%;
+      width:60%;
+      }
+
+
+      
+    .shoesOptions {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: red;
+      width: 20%;
+      height:auto;
+      margin-top:5%;
+    }
+    
+    .shoesOptionBox{
+      text-align: center;
+      height:100%;
+      width:100%;
+      margin:auto;
+      margin-top:20px;
+    }
+    
+    .shoesOptionBox svg{
+      height:80%;
+      width:80%;
+      }
+
+
+      .skinOptionBox{
+        height:100%;
+        width:100%;
+      }
+.skinOptions{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: black;
+  float:right;
+  width: 20%;
+  height:auto;
+  margin-top:5%;
+}
+
+
+
+.saveButton{
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
+.saveButtonDB{
+  position:absolute;
+  bottom:0;
+  left:0;
+  margin-left:100px;
+}
+
+
+
+  .avatar-container{
+    width:auto;
+    height:auto;
+    margin:auto;
+  }
+
+
+  .holder {
+    width: inherit;
+    margin:auto;
+    height:700px;
+    padding:5%;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+
+  .color-swatch {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: aqua;;
+  }
+
+canvas{
+  margin:auto;
+  position:absolute;
+  left:15%;
+  top:50%;
+}
+
+.authBox{
+  width:80%;
+  margin:auto;
+  background-color: black;
+  text-align: center;
+}
+
+.signup{
+  width:300px;
+  height:300px;
+  margin:auto;
+
+  text-align: center;
+display:inline-block;
+background-color: lightblue;
+}
+.login{
+  width:300px;
+  height:300px;
+  margin:auto;
+
+  text-align: center;
+display:inline-block;
+background-color: lightblue;
+}
+
+div > input{
+  margin:20px;
+}
+
+
+.svgAvatar-Container > svg{
+background-color: red;
+width:600px;
+height:1000px;
+}
+
+
+
+/* CSS */
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 50%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+
+
