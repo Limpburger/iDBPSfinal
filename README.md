@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## To create a new Create-React-App application you need to install Node.js and run the following command: 
+npx create-react-app my-app (yarn can also be used)
+
+my-app is the name of the folder that holds your setup files, this can be changed to any desired name. 
+
+The node_modules folder holds all the references to libraries and modules. Once you type npm install in the command promt all the node_modules that are mentioned within the Package-lock.JSON file will be installed. 
+
+DON'T UPLOAD THE NODE_MODULES FOLDERS 
+Because this folder can be very large, the packagelockjson will hold all the references to the modules and they can be automatically installed by running npm install in the folder directory. 
+When a library or module contains bugs you can remove the package manually by running npm remove and the name of the package. You can also delete the whole node_modules folder and remove the specific reference from the packagelock.json. Then you can run npm install again and it will only reinstall the remaining modules in the packagelockjson. 
+
+Phaser can be installed and deployed by itself. In these examples the Phaser games are rendered within a React application so you only have to start the React application by running npm start command after you've installed the node_modules by running npm install within the folder.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
