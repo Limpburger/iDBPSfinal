@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+
+}
+
+.home-screen {
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+  border: 5px solid #ccc;
+  
+}
+
+.draggable-object {
+  position: absolute;
+  cursor: move;
+  
+}
+.house-clicked{
+  background-color: red;
+} 
+.openHouse{
+  background-color: black;
+  width:1000px;
+  height:1000px;
+}
+
+.houseModal{
+  display:flex;
+  width:100%;
+  height:80%;
+  background-color: red;
+}
+
+.houseModal > header{
+  background-color: green;
+  padding:50px;
+}
+
+
+.post_preview{
+  width: 100%;
+  height: 60%;
+  position: fixed;
+  visibility: hidden;
+  margin-top: 100px;
+}
+
+
+
+.shopModal{
+  width:100%;
+  height:auto;
+  background-color: red;
+}
+
+.shop-clicked{
+  background-color: green;
+}
+
+
+
+.modal {
+  width: 250px;
+  height: 170px;
+  background: white;
+  color: white;
+  z-index: 10;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+}
+
+.cancelModalButton{
+  width:100%;
+  height:20%;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  border: none;
+  color: #2c3e50;
+  background: #fcfcfc;
+  transition: all 0.25s ease;
+}
+
+
+.cancelModalButton:hover{
+  box-shadow: none;
+  transform: none;
+  background: whitesmoke;
+}
+
+#contain{
+  width:1000px;
+  height:1000px;
+}
+
+.drop-target {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 1000px;
+  z-index: -1;
+  opacity: 0.3;
+  background-color: #ccc;
+  background: #333;
+  background-image: linear-gradient(rgba(0, 255, 0, .7) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 255, 0, .7) .1em, transparent .1em);
+  background-size: 100px 100px;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.Pictures{
+  margin:10px;
+}
+
+.Board{
+  width:300px;
+  height:300px;
+  border: 2px solid black;
+}
+img{
+  margin:0px;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
